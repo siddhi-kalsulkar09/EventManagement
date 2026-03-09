@@ -53,12 +53,10 @@ const HomePage = () => {
 
   return (
     <div className="min-h-screen bg-base-200">
-      {/* Navbar ला search function pass */}
       <Navbar onSearch={handleSearch} />
 
       <div className="max-w-7xl mx-auto p-4 mt-6">
 
-        {/* Back Button (Search केल्यावर दिसेल) */}
         {isSearching && (
           <button
             onClick={handleBack}

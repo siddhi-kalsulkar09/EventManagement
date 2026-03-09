@@ -11,7 +11,6 @@ import RegisterPage from "./pages/RegisterPage";
 const App = () => {
   return (
     <>
-      {/* Toast messages show karayla */}
       <Toaster position="top-center" />
 
       <Routes>
@@ -19,7 +18,6 @@ const App = () => {
         <Route path="/create" element={<CreateEvent />} />
         <Route path="/event/:id" element={<EventDetailPage />} />
         <Route path="/register/:id" element={<RegisterPage />} />
-        {/* <Route path="/EventHome/:id" element={<EventHome />} /> */}
 
         <Route path="/eventHome/:id" element={<EventHome />} />
       </Routes>
